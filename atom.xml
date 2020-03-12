@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://charmingu.club</id>
     <title>Precious🌙⭐</title>
-    <updated>2020-03-10T09:23:43.060Z</updated>
+    <updated>2020-03-12T13:28:29.803Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://charmingu.club"/>
     <link rel="self" href="https://charmingu.club/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://charmingu.club/images/avatar.png</logo>
     <icon>https://charmingu.club/favicon.ico</icon>
     <rights>All rights reserved 2020, Precious🌙⭐</rights>
+    <entry>
+        <title type="html"><![CDATA[计算方法]]></title>
+        <id>https://charmingu.club/post/ji-suan-fang-fa/</id>
+        <link href="https://charmingu.club/post/ji-suan-fang-fa/">
+        </link>
+        <updated>2020-03-12T07:50:52.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="序言">序言</h2>
+<p>计算方法随想笔记，待补充......</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="序言">序言</h2>
+<p>计算方法随想笔记，待补充......</p>
+<!-- more -->
+<h2 id="非线性方程的求根">非线性方程的求根</h2>
+<h3 id="牛顿迭代法">牛顿迭代法</h3>
+<p>将非线性方程线性化——Taylor展开:</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>=</mo><msub><mi>x</mi><mi>k</mi></msub><mo>−</mo><mfrac><mrow><mi>f</mi><mo>(</mo><msub><mi>x</mi><mi>k</mi></msub><mo>)</mo></mrow><mrow><msup><mi>f</mi><mo mathvariant="normal">′</mo></msup><mo>(</mo><msub><mi>x</mi><mi>k</mi></msub><mo>)</mo></mrow></mfrac></mrow><annotation encoding="application/x-tex">x_{k+1}=x_{k}-\frac{f(x_k)}{f&#x27;(x_k)}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.638891em;vertical-align:-0.208331em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361079999999999em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span><span class="mbin mtight">+</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.208331em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.73333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:2.363em;vertical-align:-0.936em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.427em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6778919999999999em;"><span style="top:-2.9890000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.936em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<h2 id="线性方程组的直接法">线性方程组的直接法</h2>
+<h3 id="高斯若尔当消元法">高斯—若尔当消元法</h3>
+<p>利用列主元消元法和若尔当消元法可以求出某矩阵的<strong>逆矩阵</strong>：</p>
+<p>找出列最大元，进行标准化消元，然后找到下一列的最大元，标准化后进行<strong>上下</strong>消元。</p>
+<h3 id="三角分解法">三角分解法</h3>
+<ul>
+<li>若A的所有顺序主子式均不为0，则A的LU分解唯一（其中L为单位下三角阵）</li>
+</ul>
+<p>看不懂</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2019的最后一天]]></title>
         <id>https://charmingu.club/post/2019-the-last-day/</id>
