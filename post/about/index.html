@@ -90,7 +90,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1584192357163" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1584246921265" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -155,29 +155,25 @@
               
             
               <div id="comments" class="bg-white hosted ">
-                
-                  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-<div class="clear"></div>
-
+                <div class="clear"></div>
 <script>
-  var gitalk = new Gitalk({
-    clientID: 'ac42b6aa7e66b8cb98b1',
-    clientSecret: '524d70bbbda6aca57880dc48221c394741ddc732',
-    repo: 'gaaraly.github.io',
-    owner: 'gaaraly',
-    admin: ['gaaraly'],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
 </script>
 
-                
-                
               </div>
             
 
@@ -309,6 +305,19 @@
     <div class="clear"></div>
 
         
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/valine/1.3.10/Valine.Pure.min.js"></script>
+<script>
+    new Valine({
+        el: '#comments',
+        appId: 'sfEb6fVnWHAvtzAk8X3rs8RC-MdYXbMMI' ,
+        appKey: 'hihJ5j7ESjAnG2al3pDtpsOh',
+        pageSize: 30,
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor: true // 阅读量统计
+    })
+</script>
+    
 
       
     <script src="https://charmingu.club/media/js/functions-post.js"></script>
