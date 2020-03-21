@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://charmingu.club</id>
     <title>Precious🌙⭐</title>
-    <updated>2020-03-21T03:48:34.491Z</updated>
+    <updated>2020-03-21T04:18:16.495Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://charmingu.club"/>
     <link rel="self" href="https://charmingu.club/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Precious🌙⭐</rights>
     <entry>
         <title type="html"><![CDATA[计算方法]]></title>
-        <id>https://charmingu.club/ji-suan-fang-fa/</id>
-        <link href="https://charmingu.club/ji-suan-fang-fa/">
+        <id>https://charmingu.club/post/ji-suan-fang-fa/</id>
+        <link href="https://charmingu.club/post/ji-suan-fang-fa/">
         </link>
         <updated>2020-03-12T07:50:52.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="序言">序言</h2>
@@ -206,8 +206,8 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
     </entry>
     <entry>
         <title type="html"><![CDATA[2019的最后一天]]></title>
-        <id>https://charmingu.club/2019-the-last-day/</id>
-        <link href="https://charmingu.club/2019-the-last-day/">
+        <id>https://charmingu.club/post/2019-the-last-day/</id>
+        <link href="https://charmingu.club/post/2019-the-last-day/">
         </link>
         <updated>2019-12-31T11:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>2019就这样猝不及防的走到了最后一天，发篇文章纪念一下~🌙</p>
@@ -222,8 +222,8 @@ M1001 80H400000v40H1013z'/></svg></span></span></span><span class="vlist-s">​<
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://charmingu.club/hello-gridea/</id>
-        <link href="https://charmingu.club/hello-gridea/">
+        <id>https://charmingu.club/post/hello-gridea/</id>
+        <link href="https://charmingu.club/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
