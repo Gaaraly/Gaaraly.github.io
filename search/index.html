@@ -91,7 +91,7 @@
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1585408495306" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1585410859416" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -241,31 +241,8 @@
 
         
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.Pure.min.js"></script>
 <script>
-  loadComments();
-  function loadComments() {
-        if (typeof Valine === 'undefined') {
-            var getScript = (options) => {
-                var script = document.createElement('script');
-                script.defer = true;
-                script.crossOrigin = 'anonymous';
-                Object.keys(options).forEach((key) => {
-                    script[key] = options[key];
-                });
-                document.body.appendChild(script);
-            };
-            getScript({
-                src: 'https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.Pure.min.js',
-                onload: () => {
-                    newValine();
-                }
-            });
-        } else {
-            newValine();
-        }
-  }
-  function newValine() {
     new Valine({
         el: '#comments',
         appId: 'sfEb6fVnWHAvtzAk8X3rs8RC-MdYXbMMI' ,
@@ -274,15 +251,6 @@
         placeholder: '既然来了，那就留个痕迹吧~',
         visitor: true // 阅读量统计
     });
-    function diyValine() {
-          document.querySelector("span.vemoji-btn").innerHTML = '😀';
-          jinrishici.load(function(result) {
-              var jrsc_plac =  result.data.content + "\n「" + result.data.origin.title + "」" + result.data.origin.dynasty + " · " + result.data.origin.author
-              document.getElementById("veditor").setAttribute("placeholder",jrsc_plac);
-          });
-    }
-    setTimeout(diyValine, 1000);
-  }
 </script>
     
 
