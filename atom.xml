@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://charmingu.club</id>
     <title>Precious🌙⭐</title>
-    <updated>2020-04-20T12:34:04.531Z</updated>
+    <updated>2020-04-23T04:49:51.033Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://charmingu.club"/>
     <link rel="self" href="https://charmingu.club/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://charmingu.club/images/avatar.png</logo>
     <icon>https://charmingu.club/favicon.ico</icon>
     <rights>All rights reserved 2020, Precious🌙⭐</rights>
+    <entry>
+        <title type="html"><![CDATA[唱到阳关第四声]]></title>
+        <id>https://charmingu.club/post/poetry-parting/</id>
+        <link href="https://charmingu.club/post/poetry-parting/">
+        </link>
+        <updated>2020-04-23T04:35:00.000Z</updated>
+        <content type="html"><![CDATA[<p>唱到阳关第四声。香带轻分，罗带轻分。</p>
+<p>杏花时节雨纷纷。山绕孤村。水绕孤村。</p>
+<p>更没心情共酒尊。春衫香满，空有啼痕。</p>
+<p>一般离思两销魂。马上黄昏。楼上黄昏。</p>
+<p><strong>江湖路远</strong><br>
+<strong>来日再相见。</strong></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[与世界的距离]]></title>
         <id>https://charmingu.club/post/distance-from-the-world/</id>
