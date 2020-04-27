@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://charmingu.club</id>
     <title>Precious🌙⭐</title>
-    <updated>2020-04-27T04:29:37.257Z</updated>
+    <updated>2020-04-27T14:58:00.881Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://charmingu.club"/>
     <link rel="self" href="https://charmingu.club/atom.xml"/>
@@ -10,6 +10,44 @@
     <logo>https://charmingu.club/images/avatar.png</logo>
     <icon>https://charmingu.club/favicon.ico</icon>
     <rights>All rights reserved 2020, Precious🌙⭐</rights>
+    <entry>
+        <title type="html"><![CDATA[Windows邮箱添加Gmail]]></title>
+        <id>https://charmingu.club/post/win10-mail/</id>
+        <link href="https://charmingu.club/post/win10-mail/">
+        </link>
+        <updated>2020-04-27T14:43:51.000Z</updated>
+        <summary type="html"><![CDATA[<p>给Win10邮箱添加Gmail...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>给Win10邮箱添加Gmail...</p>
+<!--more-->
+<h2 id="前言">前言</h2>
+<p><em>最近因为在折腾国外的<a href="https://www.heroku.com/">Heroku</a>，但是Heroku注册不允许QQ邮箱注册，就只有掏出久违的Gmail邮箱了，所以就想给Windows自带的这个邮箱添加上Gmail，方便接收邮件。但是总所周知，Gmail因为某些原因，在国内是没办法直接添加的，即使开启加速器，仍然会显示网络错误。</em></p>
+<figure data-type="image" tabindex="1"><img src="https://img.deemk.xyz/img/2020/04/27/20200427.png" alt="" loading="lazy"></figure>
+<hr>
+<h2 id="问题原因">问题原因</h2>
+<p>Windows10 UWP应用都在沙箱里运行，沙箱里的程序无法使用代理网络，即便已经设置了网络代理，进程『AppContainers』也不会将流量发送到本地计算机。因此我们就需要允许『AppContainers』将流量发送到本地。</p>
+<h2 id="解决方法">解决方法</h2>
+<p>以管理员方式启动Cmd，输入下面两串命令：</p>
+<pre><code class="language-powershell">CheckNetIsolation LoopbackExempt -a -p=S-1-15-2-2551677095-2355568638-4209445997-2436930744-3692183382-387691378-1866284433
+</code></pre>
+<pre><code class="language-powershell">CheckNetIsolation LoopbackExempt -a -p=S-1-15-2-2750798217-1343590035-1234819260-1030354384-3318145141-3720257911-3461195215
+</code></pre>
+<figure data-type="image" tabindex="2"><img src="https://img.deemk.xyz/img/2020/04/27/20200427-1.png" alt="" loading="lazy"></figure>
+<p><em>图片仅为示意。</em></p>
+<p>再次打开UWP和加速器即可。</p>
+<h2 id="收回权限">收回权限</h2>
+<p>以管理员方式启动Cmd，输入下面两串命令：</p>
+<pre><code class="language-powershell">CheckNetIsolation LoopbackExempt -d -p=S-1-15-2-2551677095-2355568638-4209445997-2436930744-3692183382-387691378-1866284433
+</code></pre>
+<pre><code class="language-powershell">CheckNetIsolation LoopbackExempt -d -p=S-1-15-2-2750798217-1343590035-1234819260-1030354384-3318145141-3720257911-3461195215
+</code></pre>
+<p>参考自：</p>
+<ul>
+<li><a href="https://blog.csdn.net/MoMummy/article/details/92111423">https://blog.csdn.net/MoMummy/article/details/92111423</a></li>
+<li><a href="https://blog.csdn.net/MoMummy/article/details/92145012">https://blog.csdn.net/MoMummy/article/details/92145012</a></li>
+</ul>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[又携书剑路茫茫]]></title>
         <id>https://charmingu.club/post/just-go-on/</id>
