@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gaaraly.github.io</id>
     <title>Precious🌙⭐</title>
-    <updated>2021-03-31T07:46:35.071Z</updated>
+    <updated>2021-04-05T12:21:21.538Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gaaraly.github.io"/>
     <link rel="self" href="https://gaaraly.github.io/atom.xml"/>
@@ -24,7 +24,7 @@
 <h2 id="欲买桂花同载酒"><em>欲买桂花同载酒</em></h2>
 <p>我是也一个普通的存在，同时也是矫情的，但我喜欢那一份矫情，不是给你们的，是给我自己的，能够握紧的，就别不要再放手了，矫揉，只是为了更好的记住。</p>
 <p>愿仍能心怀光明，与深爱的人与事，住在世界的远方，不再顾虑，在不被人注意的地方，以肆意的姿态活着，那时候再看看这些文字，还能开怀大笑。</p>
-<figure data-type="image" tabindex="1"><img src="https://img.deemk.xyz/img/2020/04/26/20200426.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/26/20200426.jpg?raw" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
@@ -39,7 +39,7 @@
 <!--more-->
 <h2 id="前言">前言</h2>
 <p><em>最近因为在折腾国外的<a href="https://www.heroku.com/">Heroku</a>，但是Heroku注册不允许QQ邮箱注册，就只有掏出久违的Gmail邮箱了，所以就想给Windows自带的这个邮箱添加上Gmail，方便接收邮件。但是总所周知，Gmail因为某些原因，在国内是没办法直接添加的，即使开启加速器，仍然会显示网络错误。</em></p>
-<figure data-type="image" tabindex="1"><img src="https://img.deemk.xyz/img/2020/04/27/20200427.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/27/20200427.png?raw" alt="" loading="lazy"></figure>
 <hr>
 <h2 id="问题原因">问题原因</h2>
 <p>Windows10 UWP应用都在沙箱里运行，沙箱里的程序无法使用代理网络，即便已经设置了网络代理，进程『AppContainers』也不会将流量发送到本地计算机。因此我们就需要允许『AppContainers』将流量发送到本地。</p>
@@ -49,7 +49,7 @@
 </code></pre>
 <pre><code class="language-powershell">CheckNetIsolation LoopbackExempt -a -p=S-1-15-2-2750798217-1343590035-1234819260-1030354384-3318145141-3720257911-3461195215
 </code></pre>
-<figure data-type="image" tabindex="2"><img src="https://img.deemk.xyz/img/2020/04/27/20200427-1.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/27/20200427-1.png?raw" alt="" loading="lazy"></figure>
 <p><em>图片仅为示意。</em></p>
 <p>再次打开UWP和加速器即可。</p>
 <h2 id="收回权限">收回权限</h2>
@@ -63,24 +63,6 @@
 <li><a href="https://blog.csdn.net/MoMummy/article/details/92111423">https://blog.csdn.net/MoMummy/article/details/92111423</a></li>
 <li><a href="https://blog.csdn.net/MoMummy/article/details/92145012">https://blog.csdn.net/MoMummy/article/details/92145012</a></li>
 </ul>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[又携书剑路茫茫]]></title>
-        <id>https://gaaraly.github.io/post/just-go-on/</id>
-        <link href="https://gaaraly.github.io/post/just-go-on/">
-        </link>
-        <updated>2020-04-26T15:15:06.000Z</updated>
-        <content type="html"><![CDATA[<p>随着时间推移，疫情逼退了上半年的许多考试，CET4/6，就连高考也推迟了，时局让人措不及防。</p>
-<p>希望远在广东的那一位友人，能够平安。自此离去开学，未来迷途，但愿披荆斩棘，终收桂香。</p>
-<blockquote>
-<p>鹏北海，凤朝阳，又携书剑路茫茫。</p>
-<p>明年此日青云上，却笑人间举子忙。</p>
-</blockquote>
-<figure data-type="image" tabindex="1"><img src="https://img.deemk.xyz/img/2020/04/26/20200426.jpg" alt="" loading="lazy"></figure>
-<p>未来坎坷皆不可知，如今又携书剑，唯望把握当下，走好每一步，来日把酒当歌，青春作伴。</p>
-<p><strong>开学以后要一切顺利呀，等你回来</strong>💖</p>
-<p><font size=2><s>照片是高三时候拍的，希望能传递我的运气</s></font></p>
 ]]></content>
     </entry>
     <entry>
@@ -130,7 +112,7 @@
 <blockquote>
 <p><s>请忽略玻璃的倒影</s></p>
 </blockquote>
-<p><photos><img src="https://img.deemk.xyz/img/2020/04/08/20200408.jpg" alt="" loading="lazy"><img src="https://img.deemk.xyz/img/2020/04/08/20200408-4.jpg" alt="" loading="lazy"><img src="https://img.deemk.xyz/img/2020/04/08/20200408-1.jpg" alt="" loading="lazy"><img src="https://img.deemk.xyz/img/2020/04/08/20200408-2.jpg" alt="" loading="lazy"><img src="https://img.deemk.xyz/img/2020/04/08/20200408-3.jpg" alt="" loading="lazy"></photos></p>
+<p><photos><img src="https://pan.charmingu.cn/Images/blogs/2020/04/08/20200408.jpg?raw" alt="" loading="lazy"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/08/20200408-4.jpg?raw" alt="" loading="lazy"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/08/20200408-1.jpg?raw" alt="" loading="lazy"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/08/20200408-2.jpg?raw" alt="" loading="lazy"><img src="https://pan.charmingu.cn/Images/blogs/2020/04/08/20200408-3.jpg?raw" alt="" loading="lazy"></photos></p>
 ]]></content>
     </entry>
     <entry>
